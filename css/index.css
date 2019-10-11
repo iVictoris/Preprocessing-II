@@ -168,6 +168,17 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.btn {
+  background: #008080;
+  padding: 1.25rem 1rem;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  width: 85%;
+}
 nav {
   display: flex;
   justify-content: space-between;
