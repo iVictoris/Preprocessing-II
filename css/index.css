@@ -336,3 +336,9 @@ nav .navigation-list {
   width: 30%;
   margin-bottom: 30px;
 }
+@media (max-device-width: 500px) {
+  .home .content-pick {
+    display: flex;
+    flex-flow: column;
+  }
+}
