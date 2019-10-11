@@ -164,6 +164,11 @@ h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
 }
+@media (max-device-width: 500px) {
+  h4 {
+    font-size: 5rem;
+  }
+}
 p {
   line-height: 1.5;
   font-size: 1.6rem;
@@ -199,6 +204,12 @@ img {
   justify-content: center;
   border-radius: 1rem;
   width: 85%;
+}
+@media (max-device-width: 500px) {
+  .btn {
+    width: 100%;
+    border-radius: 3rem;
+  }
 }
 nav {
   display: flex;
@@ -345,4 +356,25 @@ nav .navigation-list {
 .home .content-pick .destination {
   width: 75%;
   margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.home .content-pick .destination p {
+  font-size: 3rem;
+}
+.home .content-pick .destination .btn {
+  background: #19A2B8;
+  padding: 2.5rem 5rem;
+  color: white;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  width: 85%;
+}
+@media (max-device-width: 500px) {
+  .home .content-pick .destination .btn {
+    width: 100%;
+    border-radius: 3rem;
+  }
 }
