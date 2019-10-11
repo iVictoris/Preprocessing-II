@@ -198,6 +198,22 @@ nav .navigation-list {
   margin-right: auto;
   padding-right: 3%;
 }
+@media (max-device-width: 500px) {
+  nav {
+    flex-flow: column;
+  }
+  nav h1 {
+    width: 100%;
+    font-size: 7rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  nav .navigation-list {
+    font-size: 4rem;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
