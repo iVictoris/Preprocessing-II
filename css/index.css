@@ -215,6 +215,15 @@ nav .navigation-list {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
+.home header {
+  border-bottom: 2px dashed #c0c0c0;
+}
+.home header img {
+  margin-bottom: 2rem;
+}
+.home header p {
+  padding-bottom: 2rem;
+}
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #c0c0c0;
