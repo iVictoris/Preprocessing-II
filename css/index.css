@@ -308,6 +308,7 @@ nav .navigation-list {
   .home .inverse-content {
     display: flex;
     flex-flow: column-reverse;
+    margin-top: 5rem;
   }
 }
 .home .content-destination {
