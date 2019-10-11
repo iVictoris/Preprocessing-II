@@ -3,7 +3,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 2rem 0;
-  border-bottom: 2px dashed @navigation-border;
+  .dashed-border(2px);
   h1 {
     width: 45%;
     margin-left: auto;
@@ -20,6 +20,7 @@ nav {
 
   @media @mobile {
     flex-flow: column;
+    .dashed-border(.5rem);
     h1 {
       width: 100%;
       font-size: 7rem;

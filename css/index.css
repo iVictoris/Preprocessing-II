@@ -146,9 +146,19 @@ h5 {
 h1 {
   font-size: 4rem;
 }
+@media (max-device-width: 500px) {
+  h1 {
+    font-size: 7rem;
+  }
+}
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
+}
+@media (max-device-width: 500px) {
+  h2 {
+    font-size: 6rem;
+  }
 }
 h4 {
   font-size: 2.5rem;
@@ -201,6 +211,7 @@ nav .navigation-list {
 @media (max-device-width: 500px) {
   nav {
     flex-flow: column;
+    border-bottom: 0.5rem dashed #c0c0c0;
   }
   nav h1 {
     width: 100%;
