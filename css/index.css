@@ -169,6 +169,12 @@ p {
   font-size: 1.6rem;
   padding-bottom: 10px;
 }
+@media (max-device-width: 500px) {
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
 img {
   max-width: 100%;
   height: auto;
@@ -177,6 +183,11 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+@media (max-device-width: 500px) {
+  .container {
+    max-width: 90%;
+  }
 }
 .btn {
   background: #008080;
@@ -253,6 +264,25 @@ nav .navigation-list {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
+@media (max-device-width: 500px) {
+  .home .content-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .home .content-section .text-content {
+    width: 100%;
+  }
+  .home .content-section .text-content p {
+    font-size: 2rem;
+  }
+  .home .content-section .img-content {
+    width: 100%;
+  }
+  .home .content-section .img-content img {
+    width: 100%;
+  }
+}
 .home header {
   border-bottom: 2px dashed #c0c0c0;
 }
@@ -273,6 +303,12 @@ nav .navigation-list {
 .home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
+}
+@media (max-device-width: 500px) {
+  .home .inverse-content {
+    display: flex;
+    flex-flow: column-reverse;
+  }
 }
 .home .content-destination {
   width: 75%;
