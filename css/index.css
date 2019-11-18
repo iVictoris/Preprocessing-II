@@ -155,11 +155,6 @@ h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
 }
-@media (max-width: 500px) {
-  h2 {
-    font-size: 6rem;
-  }
-}
 h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
@@ -176,7 +171,6 @@ p {
 }
 @media (max-width: 500px) {
   p {
-    font-size: 1.5rem;
     margin-bottom: 2rem;
   }
 }
@@ -209,6 +203,7 @@ img {
   .btn {
     width: 100%;
     border-radius: 3rem;
+    background: #17a2b8;
   }
 }
 nav {
@@ -283,9 +278,6 @@ nav .navigation-list {
   }
   .home .content-section .text-content {
     width: 100%;
-  }
-  .home .content-section .text-content p {
-    font-size: 2rem;
   }
   .home .content-section .img-content {
     width: 100%;
