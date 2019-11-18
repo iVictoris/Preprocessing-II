@@ -237,12 +237,12 @@ nav .navigation-list {
   }
   nav h1 {
     width: 100%;
-    font-size: 7rem;
+    font-size: 4rem;
     text-align: center;
     margin-bottom: 3rem;
   }
   nav .navigation-list {
-    font-size: 4rem;
+    font-size: 2rem;
     width: 100%;
     justify-content: space-evenly;
   }
