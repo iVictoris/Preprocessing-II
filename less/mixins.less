@@ -1,1 +1,22 @@
 // Mixins in here
+
+.sign-up-button(@text-color, @background-color, @font-size, @padding, @width) {
+  background: @background-color;
+  padding: @padding;
+  color: @text-color;
+  font-size: @font-size;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  width: @width;
+  @media @mobile {
+    width: 100%;
+    border-radius: 3rem;
+    background: @button-bg;
+  }
+}
+
+.dashed-border (@border-size) {
+  border-bottom: @border-size dashed @navigation-border;
+}
